@@ -1,3 +1,8 @@
+/* 
+ * This file test the Waveshare JSON commands on Jetson Orin Nano runnin Linux 
+ * and JetPack 6.2. No exta libraries are needed 
+ * Author: Ziad Youssfi, April, 2025
+ */
 #include <iostream>
 #include <fcntl.h>
 #include <unistd.h>
