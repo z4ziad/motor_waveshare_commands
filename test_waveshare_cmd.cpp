@@ -1,6 +1,7 @@
 /* 
  * This file test the Waveshare JSON commands on Jetson Orin Nano runnin Linux 
  * and JetPack 6.2. No exta libraries are needed 
+ * compile: g++ <this_file.cpp> -o <exec_file_name>
  * Author: Ziad Youssfi, April, 2025
  */
 #include <iostream>
