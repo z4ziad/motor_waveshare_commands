@@ -4,8 +4,8 @@ You can run these scripts on Linux, MacOS or Windows as long you install the PyS
 
 If you are testing the motors on the Jetson, you do NOT need to unplug the USB cabe connecting it to the ESP32:  
 * On the Jetson running Linux, the USB port is usually `/dev/ttyACM0`. Note that the script should be run outside of the IsaacROS-dev Docker container. You need to add the username to the dialout gorup:   
-```$ sudo usermod -aG dialout $USER```
-Then log out and back in again or restart the Jetson. Verify that user is now part of the dialout group:
+```$ sudo usermod -aG dialout $USER```   
+Then log out and back in again or restart the Jetson. Verify that user is now part of the dialout group:   
 ```$ groups $USER```
 
 
